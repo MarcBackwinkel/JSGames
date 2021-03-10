@@ -1,5 +1,5 @@
 {
-  "name": "000_default",
+  "name": "01_guessTheNumber",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
