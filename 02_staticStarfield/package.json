@@ -1,0 +1,19 @@
+{
+  "name": "02_staticStarfield",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo src/main.js:build.js --live",
+    "startBabel": "budo src/main.js:build.js --live  -- -t [babelify --presets [ env ] ]"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^10.0.0",
+    "budo": "^11.6.4"
+  },
+  "description": ""
+}
