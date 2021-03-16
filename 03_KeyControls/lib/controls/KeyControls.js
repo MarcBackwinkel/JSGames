@@ -1,4 +1,4 @@
-class KeyControls {
+export default class KeyControls {
 
     constructor(){
         this.keys = {};
@@ -44,5 +44,3 @@ class KeyControls {
         return 0;
     }
 }
-
-export default KeyControls
